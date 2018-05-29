@@ -111,7 +111,6 @@ public class BinaryTree {
     }
 
     private int findSmallestValue(Node root){
-        System.out.println("traversing:" + root.value);
         //if no left child, return root, else return lowest value of right tree (leaf)
         return root.leftChild == null ? root.value : findSmallestValue(root.rightChild);
     }
