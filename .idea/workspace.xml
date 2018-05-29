@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af5d45e3-8dbe-4cb9-a72e-a267d3ed09c9" name="Default" comment="" />
+    <list default="true" id="af5d45e3-8dbe-4cb9-a72e-a267d3ed09c9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,28 +16,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="true">
+    <leaf>
+      <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-              <folding>
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="553">
+              <caret line="143" column="13" lean-forward="true" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTreeTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BinaryTreeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BinaryTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTree.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BinaryTree.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -54,8 +61,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BinaryTreeTest.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTreeTest.java" />
       </list>
     </option>
   </component>
@@ -68,47 +75,39 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1139" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="JUnit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BinaryTree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JUnit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JUnit" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JUnit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BinaryTree" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JUnit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JUnit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BinaryTree.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -121,7 +120,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3234536" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
@@ -150,30 +149,8 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="GlassFish Embedded 3.1: BinaryTreeTest" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
-      <module name="JUnit" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="GlassFish Embedded 3.1" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BinaryTreeTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="BinaryTreeTest.deleteNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnit" />
+      <module name="BinaryTree" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
@@ -250,32 +227,13 @@
       <updated>1527620088919</updated>
       <workItem from="1527620093249" duration="80000" />
       <workItem from="1527620198081" duration="4100000" />
-      <workItem from="1527627188690" duration="592000" />
+      <workItem from="1527627188690" duration="1128000" />
+      <workItem from="1527628385188" duration="108000" />
+      <workItem from="1527628536057" duration="366000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinaryTreeTest_deleteNode - 2018.05.29 at 15h 27m 28s.xml">
-      <configuration name="BinaryTreeTest.deleteNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinaryTreeTest_deleteNode - 2018.05.29 at 15h 29m 04s.xml">
-      <configuration name="BinaryTreeTest.deleteNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinaryTreeTest_deleteNode - 2018.05.29 at 15h 30m 02s.xml">
-      <configuration name="BinaryTreeTest.deleteNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinaryTreeTest_deleteNode - 2018.05.29 at 15h 30m 28s.xml">
-      <configuration name="BinaryTreeTest.deleteNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinaryTreeTest_deleteNode - 2018.05.29 at 15h 30m 44s.xml">
-      <configuration name="BinaryTreeTest.deleteNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinaryTreeTest_deleteNode - 2018.05.29 at 15h 30m 52s.xml">
-      <configuration name="BinaryTreeTest.deleteNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinaryTreeTest_deleteNode - 2018.05.29 at 15h 32m 43s.xml">
-      <configuration name="BinaryTreeTest.deleteNode" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GlassFish_Embedded_3_1__BinaryTreeTest - 2018.05.29 at 15h 32m 52s.xml">
       <configuration name="GlassFish Embedded 3.1: BinaryTreeTest" configurationId="ArquillianJUnit" />
     </history-entry>
@@ -285,24 +243,47 @@
     <history-entry file="GlassFish_Embedded_3_1__BinaryTreeTest - 2018.05.29 at 15h 50m 32s.xml">
       <configuration name="GlassFish Embedded 3.1: BinaryTreeTest" configurationId="ArquillianJUnit" />
     </history-entry>
+    <history-entry file="GlassFish_Embedded_3_1__BinaryTreeTest - 2018.05.29 at 16h 11m 30s.xml">
+      <configuration name="GlassFish Embedded 3.1: BinaryTreeTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="GlassFish_Embedded_3_1__BinaryTreeTest - 2018.05.29 at 16h 17m 52s.xml">
+      <configuration name="GlassFish Embedded 3.1: BinaryTreeTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="GlassFish_Embedded_3_1__BinaryTreeTest - 2018.05.29 at 16h 19m 04s.xml">
+      <configuration name="GlassFish Embedded 3.1: BinaryTreeTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="GlassFish_Embedded_3_1__BinaryTreeTest - 2018.05.29 at 16h 19m 52s.xml">
+      <configuration name="GlassFish Embedded 3.1: BinaryTreeTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="GlassFish_Embedded_3_1__BinaryTreeTest - 2018.05.29 at 16h 20m 14s.xml">
+      <configuration name="GlassFish Embedded 3.1: BinaryTreeTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="GlassFish_Embedded_3_1__BinaryTreeTest - 2018.05.29 at 16h 21m 14s.xml">
+      <configuration name="GlassFish Embedded 3.1: BinaryTreeTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="GlassFish_Embedded_3_1__BinaryTreeTest - 2018.05.29 at 16h 21m 36s.xml">
+      <configuration name="GlassFish Embedded 3.1: BinaryTreeTest" configurationId="ArquillianJUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4772000" />
+    <option name="totallyTimeSpent" value="5782000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1139" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49893504" weight="0.3288889" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50106496" side_tool="true" visible="true" weight="0.3288889" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32917467" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49893504" visible="true" weight="0.3288889" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32917467" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32917467" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
@@ -316,10 +297,9 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32917467" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,10 +313,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -344,31 +320,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JUnit.iml" />
-    <entry file="file://$PROJECT_DIR$/src/BinaryTreeTest.java">
+    <entry file="file://$PROJECT_DIR$/BinaryTree.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding>
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="553">
+          <caret line="143" column="13" lean-forward="true" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -436,11 +408,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>JUnit</last-edited>
+          <last-edited>BinaryTree</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3234536" />
                 <option value="0.6" />
               </list>
             </option>

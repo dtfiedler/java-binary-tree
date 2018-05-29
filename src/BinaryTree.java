@@ -115,7 +115,37 @@ public class BinaryTree {
         return root.leftChild == null ? root.value : findSmallestValue(root.rightChild);
     }
 
-    public void print(){
-        //traverse and print
+    //traverse tree in order (left, node, right)
+    public void traverseInOrder(Node node){
+        if (node != null){
+            traverseInOrder(node.leftChild);
+            System.out.print(" " + node.value);
+            traverseInOrder(node.rightChild);
+        }
+    }
+
+
+    //traverse left, right, node order
+    public void traversePreOrder(Node node){
+        if (node != null){
+            traversePreOrder(node.leftChild);
+            traversePreOrder(node.rightChild);
+            System.out.print(" " + node.value);
+        }
+    }
+
+    //traverse root, left, right
+    public void traversePostOrder(Node node){
+        if (node != null){
+            if (node!= null){
+                System.out.print(" " + node.value);
+                traversePostOrder(node.leftChild);
+                traversePostOrder(node.rightChild);
+            }
+        }
+    }
+
+    public Node getRoot(){
+        return root;
     }
 }

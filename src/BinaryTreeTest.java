@@ -10,12 +10,18 @@ public class BinaryTreeTest {
     public BinaryTree createTree(){
         BinaryTree bt = new BinaryTree();
         bt.insert(1);
-        bt.insert(2);
-        bt.insert(3);
         bt.insert(4);
-        bt.insert(5);
+        bt.insert(2);
         bt.insert(6);
-
+        bt.insert(3);
+        bt.insert(9);
+        //Traverse preorder
+        bt.traverseInOrder(bt.getRoot());
+        System.out.println();
+        bt.traversePreOrder(bt.getRoot());
+        System.out.println();
+        bt.traversePostOrder(bt.getRoot());
+        System.out.println();
         return bt;
     }
 
@@ -25,8 +31,8 @@ public class BinaryTreeTest {
 
     @Test
     public void containsNode() {
-        System.out.print("TESTING CONTAINS NODE");
         BinaryTree bt = createTree();
+        System.out.print("TESTING CONTAINS NODE");
         bt.insert(1);
         bt.insert(2);
 
@@ -39,8 +45,8 @@ public class BinaryTreeTest {
 
     @Test
     public void deleteNode(){
-        System.out.print("TESTING DELETE NODE");
         BinaryTree bt = createTree();
+        System.out.print("TESTING DELETE NODE");
         assertTrue(bt.containsNode(3));
         bt.deleteNode(3);
         assertFalse(bt.containsNode(3));
