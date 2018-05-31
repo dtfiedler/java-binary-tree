@@ -1,3 +1,26 @@
+/*
+Steps:
+    1. Create Node Structure
+    2. Create Tree Class
+    3. Insert to tree
+        1. Check if tree is empty, if so , add there
+        2. If not empty, check value compared to current node, if less recursively add to left, if greater, recursively add to right
+        3. return the current tree (or recursive call)
+    4. Find value
+        1. Check value against root node, if root is null, return false
+        2. If equal, return true, if less recursively search left, if greater recursively search right and return
+    5. Delete node
+        1. Check if root exists, else return error or null
+        2. Similar to find, recursively check value, if node value equals value you want to delete:
+            - To rebuild: 3 options
+                   1. No children, just remove node (return null, again its recurisive so returning null means set the parent node .left or .right child to null)
+                   2. if only left child, set node leftChild = null, if only right child set node rightChild = null
+                   3. If 2 children, most complicated, traverse right subtree to replace, finding the left most leaf value to replace with
+                        - recursively find the smallest value in the right subtree (return left child until no more left children) and return that value
+                        - now that we have that value, set the current node value to that value, and then recursively delete the node iwth that value in the right subtree (using delete function again)
+        3. Otherwise, if value is less then current node value, repeat with left child, else repeat function with right child
+*/
+
 class Node {
     int value;
     Node leftChild;

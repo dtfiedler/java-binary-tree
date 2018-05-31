@@ -5,8 +5,6 @@ import static org.junit.Assert.*;
 
 public class BinaryTreeTest {
 
-//    @Inject
-//    BinaryTree bt;
     public BinaryTree createTree(){
         BinaryTree bt = new BinaryTree();
         bt.insert(1);
@@ -15,18 +13,14 @@ public class BinaryTreeTest {
         bt.insert(6);
         bt.insert(3);
         bt.insert(9);
-        //Traverse preorder
-        bt.traverseInOrder(bt.getRoot());
-        System.out.println();
-        bt.traversePreOrder(bt.getRoot());
-        System.out.println();
-        bt.traversePostOrder(bt.getRoot());
-        System.out.println();
         return bt;
     }
 
     @Test
     public void insert() {
+        BinaryTree bt = new BinaryTree();
+        bt.insert(4);
+        assertTrue(bt.containsNode(4));
     }
 
     @Test
