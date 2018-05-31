@@ -38,12 +38,27 @@ public class BinaryTreeTest {
     }
 
     @Test
-    public void deleteNode(){
+    public void deleteNodeRight(){
         BinaryTree bt = createTree();
-        System.out.print("TESTING DELETE NODE");
+        System.out.println("TESTING DELETE NODE using right subtree replace");
         assertTrue(bt.containsNode(3));
-        bt.deleteNode(3);
+        bt.deleteNodeSmall(3);
         assertFalse(bt.containsNode(3));
-        System.out.println(": PASSED");
+        System.out.println("TESTING DELETE NODE using right subtree replace: PASSED");
+    }
+
+    @Test
+    public void deleteNodeLeft(){
+        BinaryTree bt = createTree();
+        System.out.println("TESTING DELETE NODE USING LEFT SUBTREE REPLACE");
+        bt.traverseInOrder(bt.getRoot());
+        System.out.println();
+        assertTrue(bt.containsNode(3));
+        System.out.println("Deleting 3 from tree");
+        bt.deleteNodeLarge(3);
+        bt.traverseInOrder(bt.getRoot());
+        System.out.println();
+        assertFalse(bt.containsNode(3));
+        System.out.println("PASSED");
     }
 }
